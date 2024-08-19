@@ -67,6 +67,48 @@ import spinThumb from './thumbnails/spin.jpg';
 
 export default {
 
+    'intro-text-generation': {
+        name: (
+            <FormattedMessage
+                defaultMessage="Text Generation"
+                description="Name for the 'Text Generation' how-to"
+                id="gui.howtos.intro-text-generation.name"
+            />
+        ),
+        tags: ['help', 'stuck', 'how', 'can', 'say', 'ai', 'text', 'generation'],
+        img: libraryIntro,
+        steps: [{
+            title: (
+                <FormattedMessage
+                    defaultMessage="Add the Text Generation Extension"
+                    description="Step name for 'Add the Text Generation Extension' step"
+                    id="gui.howtos.intro-text-generation.step_addext"
+                />
+            ),
+            image: 'introMove'
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Add a 'Ask AI' block"
+                    description="Step name for 'Add a 'Ask AI' block' step"
+                    id="gui.howtos.intro-text-generation.step_addblock"
+                />
+            ),
+            image: 'introSay'
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Click the green flag to start"
+                    description="Step name for 'Click the green flag to start' step"
+                    id="gui.howtos.intro-text-generation.step_greenflag"
+                />
+            ),
+            image: 'introGreenFlag'
+        },
+        ],
+        urlId: 'textGen'
+    },
+
     'intro-move-sayhello': {
         name: (
             <FormattedMessage
