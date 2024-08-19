@@ -317,5 +317,24 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: "Launchpad AI",
+        extensionId: "ai",
+        collaborator: "Me",
+        iconURL: gdxforIconURL,
+        insetIconURL: gdxforInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage='Making AI more accessible.'
+                description="AI Extension"
+                id="gui.extension.myExtension.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'google.com'
     }
 ];

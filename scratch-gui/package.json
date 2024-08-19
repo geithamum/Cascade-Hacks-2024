@@ -7,7 +7,7 @@
   "homepage": "https://github.com/scratchfoundation/scratch-gui#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scratchfoundation/scratch-gui.git"
+    "url": "git+https://github.com/scratchfoundation/scratch-gui.git"
   },
   "main": "./dist/scratch-gui.js",
   "scripts": {
@@ -142,7 +142,7 @@
     "url-loader": "4.1.1",
     "web-audio-test-api": "0.5.2",
     "webpack": "5.93.0",
-    "webpack-cli": "5.1.4",
+    "webpack-cli": "^5.1.4",
     "webpack-dev-server": "5.0.4",
     "yauzl": "2.10.0"
   },
@@ -159,5 +159,12 @@
       "\\.(css|less)$": "<rootDir>/test/__mocks__/styleMock.js",
       "editor-msgs(\\.js)?$": "<rootDir>/test/__mocks__/editor-msgs-mock.js"
     }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/scratchfoundation/scratch-gui/issues"
   }
 }

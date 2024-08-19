@@ -7,7 +7,10 @@ try:
 except ImportError as importError:
     print("Packages not found!")
     print("Installing now: ")
-    os.system("pip install -r requirements.txt")
+    os.system("pip install -r ./server/requirements.txt")
+    from flask import Flask, request
+    from flask_cors import CORS
+    import ollama
 
 app = Flask(__name__)
 CORS(app)
