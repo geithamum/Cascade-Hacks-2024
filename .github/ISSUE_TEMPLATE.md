@@ -1,4 +1,4 @@
-g### Expected Behavior
+### Expected Behavior
 
 _Please describe what should happen_
 
